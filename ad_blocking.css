@@ -513,7 +513,17 @@ div[class="white_box"] {
 	visibility: hidden !important;    
 }
 
-.leaderboard {
+.leaderboard, .anrissliste .bcadv {
  	display: none !important;
 	visibility: hidden !important;    
 }
+
+#gsr #tads, #gsr #mbEnd {
+ 	display: none !important;
+	visibility: hidden !important;
+}
+
+td.bannerBorder {
+	display: none;
+}
+

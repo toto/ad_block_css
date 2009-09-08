@@ -482,8 +482,9 @@ div[class="white_box"] {
 	visibility: hidden !important;	
 }
 
-/* zeit.de flash ad at top*/
-.anzeige, .rahmen_ad {
+
+
+.anzeige, .rahmen_ad, .ContentAdsBox {
 	display: none !important;
 	visibility: hidden !important;	
 	
@@ -518,10 +519,26 @@ div[class="white_box"] {
 	visibility: hidden !important;    
 }
 
-#gsr #tads, #gsr #mbEnd {
+#gsr #tads, 
+#gsr #mbEnd {
  	display: none !important;
 	visibility: hidden !important;
 }
+
+/* Facebook */
+#home_sidebar #home_sponsor_nile,
+ {
+ 	display: none !important;
+	visibility: hidden !important;    
+}
+
+/* Zeit online*/
+
+#zeit-de #top {
+ 	display: none !important;
+	visibility: hidden !important;    
+}
+
 
 td.bannerBorder {
 	display: none;

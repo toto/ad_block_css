@@ -551,3 +551,9 @@ td.bannerBorder {
  	display: none !important;
 	visibility: hidden !important;    
 }
+
+
+/* heise.de */
+#container #container_content {
+    top: 100px !important;
+}

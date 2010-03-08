@@ -458,15 +458,23 @@ a[href^="http://www.esportbl.de/"][target="blank_"] {
 	visibility: hidden !important;					
 }
 
+
+a[href^="http://adserver"],
 img[src$="gaming_ad.gif"],
-img[src^="http://akamai.smartadserver.com"]{display: none !important; visibility: hidden !important;}
+img[src^="http://akamai.smartadserver.com"],
+img[src^="http://banners.webmasterplan.com"] {display: none !important; visibility: hidden !important;}
 table[class="druck"], div#flashlayer 	  {display: none !important; visibility: hidden !important;}
 div[class="leaderboard"]  {display: none !important; visibility: hidden !important;}
 
-div[class="white_box"] {
+div[class="white_box"],
+*[class="hiddenAdAnchor"] {
 	display: none !important;
 	visibility: hidden !important;	
-	}
+}
+
+script[src^="http://ad.de.doubleclick.net"] {
+  content: "";
+}
 	
 .news embed {
 	display: none !important;
@@ -515,7 +523,7 @@ div[class="white_box"] {
 	visibility: hidden !important;    
 }
 
-.leaderboard, .anrissliste .bcadv {
+.leaderboard, .anrissliste .bcadv, .banner_top {
  	display: none !important;
 	visibility: hidden !important;    
 }
@@ -527,11 +535,14 @@ div[class="white_box"] {
 }
 
 /* Facebook */
-#home_sidebar #home_sponsor_nile,
- {
+#content #rightCol #pagelet_adbox,
+#content #rightCol #pagelet_connectbox,
+#content #tab_content #sidebar_ads > * 
+{
  	display: none !important;
 	visibility: hidden !important;    
 }
+
 
 /* Zeit online*/
 

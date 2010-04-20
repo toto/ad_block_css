@@ -574,3 +574,9 @@ td.bannerBorder {
     top: 100px !important;
 }
 
+/* /FAZ net */
+
+.Body #TopAd, .Body .AdData, .Body #admodW2, .Body .ModulVerlagsInfo {
+    display: hidden !important;  
+    visibility: hidden !important;  
+}
